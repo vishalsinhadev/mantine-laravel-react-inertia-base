@@ -1,0 +1,82 @@
+{
+  "resources/js/Assets/Images/bg.svg": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Assets/Images/image.svg": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Contact/ContactForm.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Contact/ContactIcons.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Contact/ContactIcons.module.css": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Contact/GetInTouch.module.css": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Home/Feature/FeaturesCards.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Home/Feature/FeaturesCards.module.css": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Home/HeroBullets.module.css": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/Home/HeroHome.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/UI/LightDark/LightDark.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Components/UI/LightDark/LightDark.module.css": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Layout/Footer/Footer.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Layout/Footer/FooterLinks.module.css": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Layout/Header/HeaderMenu.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Layout/Header/HeaderMenu.module.css": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Layout/MainLayout.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Pages/ContactUs/ContactUs.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/Pages/Test.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ],
+  "resources/js/ssr.jsx": [
+    "/build/assets/image-Cj-eOYyv.svg",
+    "/build/assets/bg-BvD04pXl.svg"
+  ]
+}
