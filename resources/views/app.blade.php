@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
+
     <!-- <meta itemProp="name" content="Mantine UI" key="item-title" />
     <meta property="og:title" content="Mantine UI" key="og-title" />
     <meta name="twitter:title" content="Mantine UI" key="twitter-title" />
