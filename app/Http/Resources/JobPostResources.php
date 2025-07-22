@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author : Vishal Kumar Sinha <vishalsinhadev@gmail.com>
+ */
+
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;

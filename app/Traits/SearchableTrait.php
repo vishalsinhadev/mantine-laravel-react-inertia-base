@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * @author : Vishal Kumar Sinha <vishalsinhadev@gmail.com>
+ */
+
 namespace App\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
@@ -50,7 +55,7 @@ trait SearchableTrait
         $search = mb_strtolower(trim($search));
         preg_match_all('/(?:")((?:\\\\.|[^\\\\"])*)(?:")|(\S+)/', $search, $matches);
         $words = $matches[1];
-        for ($i = 2; $i < count($matches); $i ++) {
+        for ($i = 2; $i < count($matches); $i++) {
             $words = array_filter($words) + $matches[$i];
         }
 
@@ -360,7 +365,7 @@ trait SearchableTrait
     protected function addBindingsToQuery(Builder $query, array $bindings)
     {
         $count = $this->getDatabaseDriver() != 'mysql' ? 2 : 1;
-        for ($i = 0; $i < $count; $i ++) {
+        for ($i = 0; $i < $count; $i++) {
             foreach ($bindings as $binding) {
                 $type = $i == 1 ? 'select' : 'having';
                 $query->addBinding($binding, $type);
@@ -386,4 +391,3 @@ trait SearchableTrait
         $original->setBindings(array_merge_recursive($clone->getBindings(), $original->getBindings()));
     }
 }
-
