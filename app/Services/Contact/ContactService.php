@@ -1,13 +1,13 @@
 <?php
+
+/**
+ * @author : Vishal Kumar Sinha <vishalsinhadev@gmail.com>
+ */
+
 namespace App\Services\Contact;
 
 use App\Models\ContactUS;
 
-/**
- *
- * @author Sinha
- *        
- */
 class ContactService
 {
 
@@ -34,4 +34,3 @@ class ContactService
         ]));
     }
 }
-

@@ -1,9 +1,6 @@
-import React from 'react';
-
-import MainLayout from '../../Layout/MainLayout';
-import { HeroHome } from '../../Components/Home/HeroHome';
-import { ContactForm } from '../../Components/Contact/ContactForm';
-import { Container } from '@mantine/core';
+import MainLayout from "../../Layout/MainLayout";
+import { ContactForm } from "../../Components/Contact/ContactForm";
+import { Container } from "@mantine/core";
 
 const ContactUs = () => {
     return (
@@ -12,7 +9,7 @@ const ContactUs = () => {
                 <ContactForm />
             </Container>
         </MainLayout>
-    )
-}
+    );
+};
 
-export default ContactUs
+export default ContactUs;

@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * @author : Vishal Kumar Sinha <vishalsinhadev@gmail.com>
+ */
+
 namespace App\Services\Blog;
 
 use App\Models\Post;
@@ -28,7 +33,7 @@ class PostService
             ]);
         }
 
-        $model = $model->orderBy('posts.created_at','DESC')
+        $model = $model->orderBy('posts.created_at', 'DESC')
             ->take(20)
             ->skip($offset)
             ->paginate();

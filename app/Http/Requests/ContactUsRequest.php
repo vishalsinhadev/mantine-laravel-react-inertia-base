@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author : Vishal Kumar Sinha <vishalsinhadev@gmail.com>
+ */
+
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
@@ -29,7 +33,6 @@ class ContactUsRequest extends FormRequest
             'email' => 'required|email|max:255',
             'subject' => 'required|max:255',
             'message' => 'required|max:255'
-            //
         ];
     }
 }

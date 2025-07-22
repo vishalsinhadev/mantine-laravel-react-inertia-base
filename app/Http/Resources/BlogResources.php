@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * @author : Vishal Kumar Sinha <vishalsinhadev@gmail.com>
+ */
+
 namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
@@ -21,7 +25,7 @@ class BlogResources extends JsonResource
             'html_content' => $this->html_content,
             'created_at' => $this->created_at->diffForHumans(),
             'created_by' => $this->user->name ?? '',
-            'slug'=> $this->slug,
+            'slug' => $this->slug,
             'category' => $this->category->name
         ];
     }
