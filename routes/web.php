@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ImportController;
 use App\Http\Controllers\JobPostController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SiteController;
@@ -35,3 +36,9 @@ Route::post('/contact/store', [ContactController::class, 'store'])->name('contac
  * JobPost Routes
  */
 Route::post('/job-post/store-application/{id}', [JobPostController::class, 'storeApplication'])->name('job-post.store-application');
+
+/**
+ * Mass Import
+ */
+Route::post('/import/upload', [ImportController::class, 'upload']);
+Route::get('/import/status/{id}', [ImportController::class, 'status']);
