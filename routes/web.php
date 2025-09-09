@@ -38,7 +38,10 @@ Route::post('/contact/store', [ContactController::class, 'store'])->name('contac
 Route::post('/job-post/store-application/{id}', [JobPostController::class, 'storeApplication'])->name('job-post.store-application');
 
 /**
- * Mass Import
+ * Bulk Import
  */
+Route::get('/import', [ImportController::class, 'index'])->name('import.index');
 Route::post('/import/upload', [ImportController::class, 'upload']);
 Route::get('/import/status/{id}', [ImportController::class, 'status']);
+Route::get('/import/{id}', [ImportController::class, 'show']);
+Route::get('/import/{id}/download', [ImportController::class, 'download']);
